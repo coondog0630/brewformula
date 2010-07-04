@@ -10,8 +10,6 @@ class ModXsendfile <Formula
 
   def install
     # Compile the apache module and then install the module into native apache
-    system "sudo apxs -cia mod_xsendfile.c"
-    puts "Restarting Apache ..."
-    system "apachectl restart"
+    system "apxs -cia mod_xsendfile.c"
   end
 end
