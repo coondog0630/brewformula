@@ -1,6 +1,6 @@
 require 'formula'
 
-class ModXsendfile <Formula
+class ModXsendfile < Formula
   url 'http://tn123.ath.cx/mod_xsendfile/beta/mod_xsendfile-0.11.tar.gz'
   homepage 'http://tn123.ath.cx/mod_xsendfile/beta/'
   # md5 '5e6f7c857f4e01793b0bc6dd1dfb5bd6g'
